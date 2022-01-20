@@ -1,0 +1,23 @@
+/* global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* *** */
+
+/* global variables */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  padding: 1rem;
+}
+.logo {
+  color: white;
+}
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
