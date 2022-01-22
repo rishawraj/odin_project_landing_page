@@ -41,31 +41,41 @@ html {
   margin: 0 auto;
   color: white;
   padding: 2.5rem;
+  background-color: lime;
 }
 .container {
+  background-color: lightseagreen;
   display: flex;
   gap: 1rem;
-  width: 55%;
-  margin: 0 auto;
+  width: 62%;
+  margin: 4rem auto;
+  /* padding: 2%; */
 }
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  /* margin-top: 0.5rem; */
 }
 .hero-text p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
-img {
-  height: 300px;
-  /* padding: 1rem; */
-}
-button {
+
+.hero-text button {
   color: white;
   font-weight: 500;
   background-color: #3882f6;
   padding: 0.3rem 1.2rem;
   border-radius: 5px;
   border: none;
-  margin-top: 0.7rem;
+  margin-top: 1rem;
+}
+.white-square {
+  background-color: grey;
+  height: 250px;
+  width: 515px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* *** */
 
@@ -85,18 +95,27 @@ button {
   display: flex;
 }
 .pic {
-  /* background-color: yellow; */
   margin-right: 1rem;
-  /*  */
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lightsalmon; */
 }
 .pic p {
   padding-top: 1rem;
   text-align: center;
 }
+.rectangle {
+  height: 200px;
+  width: 200px;
+  /* background-color: hotpink; */
+  border: 3px solid lightseagreen;
+  border-radius: 10%;
+}
 /* *** */
+
 /* section-3 */
 .section-3 {
   background-color: lightgrey;
