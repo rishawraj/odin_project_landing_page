@@ -18,6 +18,7 @@ html {
   background-color: #1f2937;
   padding: 1rem;
   padding: 1rem;
+  /* position: sticky; */
 }
 .logo {
   font-size: 1.2rem;
@@ -30,6 +31,11 @@ html {
   margin-left: 1rem;
   padding: 0.5rem;
 }
+.navbar-links a:hover {
+  /* font-weight: 600; */
+  text-decoration: underline;
+}
+
 /* *** */
 
 /* section-1 */
@@ -66,6 +72,11 @@ html {
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  border: 2px solid #3882f6;
+  background-color: transparent;
 }
 .white-square {
   background-color: grey;
@@ -161,6 +172,11 @@ html {
 .panel button {
   border: 2px solid white;
   background-color: transparent;
+}
+.panel button:hover {
+  background-color: white;
+  color: #3882f6;
+  /* border: 2px solid ; */
 }
 /* *** */
 
