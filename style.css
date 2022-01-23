@@ -17,9 +17,7 @@ html {
   justify-content: space-around;
   background-color: #1f2937;
   padding: 1rem;
-  /* margin-bottom: 2rem; */
-  padding-bottom: 2rem;
-  /* gap: 1rem; */
+  padding: 1rem;
 }
 .logo {
   font-size: 1.2rem;
@@ -28,7 +26,6 @@ html {
 }
 .navbar-links a {
   color: white;
-  /* background-color: aqua; */
   text-decoration: none;
   margin-left: 1rem;
   padding: 0.5rem;
@@ -41,10 +38,10 @@ html {
   margin: 0 auto;
   color: white;
   padding: 2.5rem;
-  background-color: lime;
+  /* background-color: lime; */
 }
 .container {
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   display: flex;
   gap: 1rem;
   width: 62%;
@@ -59,7 +56,8 @@ html {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
-
+/* both buttons */
+.panel button,
 .hero-text button {
   color: white;
   font-weight: 500;
@@ -101,11 +99,12 @@ html {
   padding: 1rem;
   justify-content: center;
   align-items: center;
-  /* background-color: lightsalmon; */
 }
 .pic p {
   padding-top: 1rem;
   text-align: center;
+  font-size: 15px;
+  width: 75%;
 }
 .rectangle {
   height: 200px;
@@ -122,34 +121,56 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
+  margin: 5rem 0 0;
+  padding: 5rem;
 }
 .quote {
-  background-color: lightcoral;
-  width: 50%;
+  /* background-color: lightcoral; */
+  width: 62%;
+  /* padding: 7rem; */
+}
+.quote p {
+  font-size: 2rem;
+  /* font: italic; */
+  font-style: italic;
+  font-weight: lighter;
+}
+.right-text {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 /* *** */
+
 /* section-4 */
 .section-4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5rem;
 }
 .panel {
-  background-color: lightblue;
-  width: 60%;
   display: flex;
   justify-content: space-around;
+  padding: 2rem;
+  background-color: #3882f6;
+  width: 60%;
+  border-radius: 10px;
+  color: white;
 }
-
+.panel button {
+  border: 2px solid white;
+  background-color: transparent;
+}
 /* *** */
 
 /* footer */
 .footer {
-  background-color: lightgoldenrodyellow;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  color: white;
 }
 /* *** */
